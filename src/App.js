@@ -19,8 +19,7 @@ const App = () => {
       const fullDays = Math.floor(timeDistance / (1000 * 60 * 60 * 24));
       const fullHours = Math.floor((timeDistance % (1000 * 60 * 60 * 24) / (1000 * 60 * 60)));
       const fullMinutes = Math.floor((timeDistance % (1000 * 60 * 60) / (1000 * 60)));
-      const fullSeconds = Math.floor((timeDistance % (1000 * 60 * 60 * 24) / 1000));
-
+      const fullSeconds = Math.floor((timeDistance % (1000 * 60) / 1000));
       
 
       if(timeDistance < 0){
