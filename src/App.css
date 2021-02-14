@@ -15,7 +15,8 @@
   left: 0;
   object-fit: cover;
   pointer-events: none;
-  filter: grayscale(70%);
+  filter: grayscale(40%);
+  mask-image: linear-gradient(rgba(0, 0, 0, 1), transparent);
 }
 .homeHeadingBox > h1 {
   z-index: 50;
@@ -47,4 +48,12 @@
 .aboutGlobalWarmingBox {
   width: 100%;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.aboutGlobalWarmingBox > h1 {
+  color: #fff;
+}
+.aboutGlobalWarming {
 }

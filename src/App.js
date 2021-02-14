@@ -19,8 +19,7 @@ const App = () => {
       const fullDays = Math.floor(timeDistance / (1000 * 60 * 60 * 24) / fullYears - 97);
       const fullHours = Math.floor((timeDistance % (1000 * 60 * 60 * 24) / (1000 * 60 * 60)));
       const fullMinutes = Math.floor((timeDistance % (1000 * 60 * 60) / (1000 * 60)));
-      const fullSeconds = Math.floor((timeDistance % (1000 * 60) / 1000));
-      
+      const fullSeconds = Math.floor((timeDistance % (1000 * 60) / 1000));      
 
       if(timeDistance < 0){
         alert("Too late!");
@@ -61,7 +60,15 @@ const App = () => {
         </div>
       </div>
       <div className="aboutGlobalWarmingBox">
-
+        <h1>Global Warming Is Real</h1>
+        <div className="aboutGlobalWarming">
+          <img src="https://agfundernews.com/wp-content/uploads/2019/08/Brazilian-Amazon-Burning-516327500_1258x839-768x512.jpeg" alt=""/>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium fugiat eos aliquid illo quis. Earum corrupti quia quos nihil quasi itaque optio sapiente. Nesciunt voluptatum quis at? Obcaecati, maxime neque?</p>
+        </div>
+        <div className="aboutGlobalWarming">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia maiores eaque sed incidunt illo voluptatibus, non delectus magni unde, veniam harum similique. Corrupti ab exercitationem pariatur, sed alias eos voluptatem?</p>
+          <img src="https://static01.nyt.com/images/2020/01/31/world/10australialetter139-1/merlin_166536642_24b1e96c-327a-4b9c-9979-f87ed8a0b502-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt=""/>
+        </div>
       </div>
     </div>
   )
