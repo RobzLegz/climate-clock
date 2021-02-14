@@ -137,7 +137,13 @@ const App = () => {
         </div>
         <h2>Sources:</h2>
         <div className="sourcesContainer">
-          <a href=""></a>
+          <a href="https://www.nationalgeographic.com/environment/global-warming/global-warming-overview/"><p>National Geographic</p></a>
+          <a href="https://climate.nasa.gov/effects/"><p>Nasa</p></a>
+          <a href="https://www.nrdc.org/stories/how-you-can-stop-global-warming"><p>NRDC</p></a>
+        </div>
+        <div className="videoContainer">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/VTfgNFz1DBM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/y564PsKvNZs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
         </div>
       </section>
     </div>
