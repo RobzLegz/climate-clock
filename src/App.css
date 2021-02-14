@@ -49,11 +49,24 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  justify-content: center;
-  padding: 100px;
+  align-items: center;
+  padding: 50px;
+  flex-direction: column;
 }
 .aboutGlobalWarmingBox > h1 {
-  color: #fff;
+  color: #333;
+  margin-bottom: 100px;
 }
 .aboutGlobalWarming {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.aboutGlobalWarming > img {
+  width: 300px;
+}
+.aboutGlobalWarming > p {
+  margin: 0 80px;
 }

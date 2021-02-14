@@ -60,14 +60,18 @@ const App = () => {
         </div>
       </div>
       <div className="aboutGlobalWarmingBox">
-        <h1>Global Warming Is Real</h1>
+        <h1>What Causes Global Warming?</h1>
         <div className="aboutGlobalWarming">
           <img src="https://agfundernews.com/wp-content/uploads/2019/08/Brazilian-Amazon-Burning-516327500_1258x839-768x512.jpeg" alt=""/>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium fugiat eos aliquid illo quis. Earum corrupti quia quos nihil quasi itaque optio sapiente. Nesciunt voluptatum quis at? Obcaecati, maxime neque?</p>
+          <p>Glaciers are melting, sea levels are rising, cloud forests are dying, and wildlife is scrambling to keep pace. It has become clear that humans have caused most of the past century's warming by releasing heat-trapping gases as we power our modern lives. Called greenhouse gases, their levels are higher now than at any time in the last 800,000 years.</p>
         </div>
         <div className="aboutGlobalWarming">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia maiores eaque sed incidunt illo voluptatibus, non delectus magni unde, veniam harum similique. Corrupti ab exercitationem pariatur, sed alias eos voluptatem?</p>
+          <p>Climate change encompasses not only rising average temperatures but also extreme weather events, shifting wildlife populations and habitats, rising seas, and a range of other impacts. All of those changes are emerging as humans continue to add heat-trapping greenhouse gases to the atmosphere, changing the rhythms of climate that all living things have come to rely on.</p>
           <img src="https://static01.nyt.com/images/2020/01/31/world/10australialetter139-1/merlin_166536642_24b1e96c-327a-4b9c-9979-f87ed8a0b502-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt=""/>
+        </div>
+        <div className="aboutGlobalWarming">
+        <img src="https://www.jjtamez.com/wp-content/uploads/2020/01/IMG_11555-1024x589.jpg" alt=""/>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia maiores eaque sed incidunt illo voluptatibus, non delectus magni unde, veniam harum similique. Corrupti ab exercitationem pariatur, sed alias eos voluptatem?</p>         
         </div>
       </div>
     </div>
