@@ -187,6 +187,13 @@
 .sourcesContainer > a > p {
   font-size: 20px;
 }
+.columnContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
 .videoContainer {
   width: 65%;
   display: flex;
@@ -350,5 +357,11 @@
     width: 120%;
     padding-left: 15%;
     margin: 0;
+  }
+}
+@media (max-width: 601px) {
+  .aboutGlobalWarming {
+    width: 100%;
+    text-align: center;
   }
 }
