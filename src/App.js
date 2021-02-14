@@ -49,15 +49,19 @@ const App = () => {
         <h1>Global Warming</h1>
         <h2>It's Time To Take Action!</h2>
         <div className="countdownTimer">
-          <h3>{timerYears < 10 ? "0" + timerYears : timerYears}:</h3>
-          <h3>{timerDays < 10 ? "0" + timerDays : timerDays}:</h3>
-          <h3>{timerHours < 10 ? "0" + timerHours : timerHours}:</h3>
-          <h3>{timerMinutes < 10 ? "0" + timerMinutes : timerMinutes}:</h3>
+          <h3>{timerYears < 10 ? "0" + timerYears : timerYears}</h3>
+          <h3>:</h3>
+          <h3>{timerDays < 10 ? "0" + timerDays : timerDays}</h3>
+          <h3>:</h3>
+          <h3>{timerHours < 10 ? "0" + timerHours : timerHours}</h3>
+          <h3>:</h3>
+          <h3>{timerMinutes < 10 ? "0" + timerMinutes : timerMinutes}</h3>
+          <h3>:</h3>
           <h3>{timerSeconds < 10 ? "0" + timerSeconds : timerSeconds}</h3>
         </div>
       </div>
       <div className="aboutGlobalWarmingBox">
-        
+
       </div>
     </div>
   )

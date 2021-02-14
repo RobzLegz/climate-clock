@@ -33,7 +33,7 @@
 }
 .countdownTimer {
   z-index: 50;
-  width: 500px;
+  width: 550px;
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
