@@ -121,3 +121,56 @@
   justify-content: space-around;
   margin-top: 60px;
 }
+.sourcesSectionBox {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+}
+.sourcesSectionBox > h1 {
+  font-size: 30px;
+  color: #333;
+}
+.sourcesSectionBox > p {
+  font-size: 25px;
+  color: #333;
+  margin-top: 20px;
+}
+.sourcesSectionBox > img {
+  width: 800px;
+  margin-top: 30px;
+}
+.colorContainer {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  justify-content: space-between;
+}
+.aboutColor {
+  display: flex;
+  align-items: center;
+}
+.coloredSquare {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #333;
+  margin-right: 5px;
+}
+.yellowColoredSquare {
+  background-color: #fff259;
+}
+.brownColoredSquare {
+  background-color: #ad7e63;
+}
+.greenColoredSquare {
+  background-color: #8dce50;
+}
+.whiteColoredSquare {
+  background-color: #fff;
+}
+.sourcesSectionBox > h2 {
+  margin-top: 40px;
+}
