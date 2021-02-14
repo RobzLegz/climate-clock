@@ -43,7 +43,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <div className="homeHeadingBox">
+      <section className="homeHeadingBox">
         <img className="globalWarmingImage" src="https://images.newscientist.com/wp-content/uploads/2019/07/03111113/what-is-global-warming-ct36ke_web.jpg" alt=""/>
         <h1>Global Warming</h1>
         <h2>It's Time To Take Action!</h2>
@@ -58,9 +58,9 @@ const App = () => {
           <h3>:</h3>
           <h3>{timerSeconds < 10 ? "0" + timerSeconds : timerSeconds}</h3>
         </div>
-      </div>
-      <div className="aboutGlobalWarmingBox">
-        <h1>What Causes Global Warming?</h1>
+      </section>
+      <section className="aboutGlobalWarmingBox">
+        <h1>What are the Effects of Global Warming?</h1>
         <div className="aboutGlobalWarming">
           <img src="https://agfundernews.com/wp-content/uploads/2019/08/Brazilian-Amazon-Burning-516327500_1258x839-768x512.jpeg" alt=""/>
           <p>Glaciers are melting, sea levels are rising, cloud forests are dying, and wildlife is scrambling to keep pace. It has become clear that humans have caused most of the past century's warming by releasing heat-trapping gases as we power our modern lives. Called greenhouse gases, their levels are higher now than at any time in the last 800,000 years.</p>
@@ -70,10 +70,13 @@ const App = () => {
           <img src="https://static01.nyt.com/images/2020/01/31/world/10australialetter139-1/merlin_166536642_24b1e96c-327a-4b9c-9979-f87ed8a0b502-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt=""/>
         </div>
         <div className="aboutGlobalWarming">
-        <img src="https://www.jjtamez.com/wp-content/uploads/2020/01/IMG_11555-1024x589.jpg" alt=""/>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia maiores eaque sed incidunt illo voluptatibus, non delectus magni unde, veniam harum similique. Corrupti ab exercitationem pariatur, sed alias eos voluptatem?</p>         
+        <img src="https://s01.sgp1.digitaloceanspaces.com/large/891755-xsxsainscs-1531826434.jpg" alt=""/>
+          <p>Scientists have high confidence that global temperatures will continue to rise for decades to come, largely due to greenhouse gases produced by human activities. Because human-induced warming is superimposed on a naturally varying climate, the temperature rise has not been, and will not be, uniform or smooth across the country or over time.</p>         
         </div>
-      </div>
+      </section>
+      <section className="stoppingClimateChangeBox">
+        
+      </section>
     </div>
   )
 }
