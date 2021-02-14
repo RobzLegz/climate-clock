@@ -78,14 +78,20 @@ const App = () => {
         </div>
       </section>
       <section className="stoppingClimateChangeBox">
-        <div className="howToStopContainer">
-          <img src={HomeImage} alt="home"/>
-        </div>
-        <div className="howToStopContainer">
-          <img src={BicicleImage} alt="bicicle"/>
-        </div>
-        <div className="howToStopContainer">
-          <img src={PlantTreesImage} alt="trees"/>
+        <h1>How to Stop Global Warming?</h1>
+        <div className="stopChangeRow">
+          <div className="howToStopContainer">
+            <img src={HomeImage} alt="home"/>
+            <p>When you go to bed or on vacation turn your thermostat down by three degrees</p>
+          </div>
+          <div className="howToStopContainer">
+            <img src={BicicleImage} alt="bicicle"/>
+            <p>If you can use bicicles instead of cars to transport</p>
+          </div>
+          <div className="howToStopContainer">
+            <img src={PlantTreesImage} alt="trees"/>
+            <p>Plant some trees</p>
+          </div>
         </div>
       </section>
     </div>

@@ -74,3 +74,39 @@
   color: #313131;
   font-weight: 500;
 }
+.stoppingClimateChangeBox {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.howToStopContainer {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.stoppingClimateChangeBox > h1 {
+  font-size: 30px;
+  color: #333;
+  margin-top: 15px;
+}
+.howToStopContainer > img {
+  width: 80%;
+  padding: 10px;
+}
+.howToStopContainer > p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.stopChangeRow {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
