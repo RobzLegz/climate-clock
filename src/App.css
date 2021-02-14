@@ -264,4 +264,91 @@
   .visibleImage {
     display: none;
   }
+  .sourcesContainer {
+    margin-top: 10px;
+  }
+  .stoppingClimateChangeBox {
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .stopChangeRow {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+  }
+  .columnContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 0 0 15%;
+  }
+}
+@media (max-width: 801px) {
+  .sourcesSectionBox > img {
+    width: 600px;
+  }
+}
+@media (max-width: 745px) {
+  .columnContainer {
+    width: 120%;
+  }
+  .videoContainer {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 600px;
+  }
+  .sourcesSectionBox {
+    height: 140vh;
+  }
+  .aboutGlobalWarmingBox {
+    height: 170vh;
+  }
+}
+@media (max-width: 661px) {
+  .aboutGlobalWarmingBox {
+    height: 180vh;
+  }
+  .sourcesSectionBox > img {
+    width: 500px;
+  }
+}
+@media (max-width: 790px) {
+  .stoppingClimateChangeBox {
+    padding: 0;
+  }
+  .columnContainer {
+    width: 100%;
+    padding: 0 10%;
+    margin: 0;
+  }
+  .countdownTimer {
+    width: 300px;
+  }
+  .countdownTimer > h3 {
+    font-size: 20px;
+  }
+  .homeHeadingBox > h1 {
+    font-size: 50px;
+  }
+  .homeHeadingBox > h2 {
+    font-size: 30px;
+  }
+  .homeHeadingBox > h3 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 653px) {
+  .sourcesSectionBox > h1 {
+    text-align: center;
+  }
+  .columnContainer {
+    width: 120%;
+    padding-left: 15%;
+    margin: 0;
+  }
 }

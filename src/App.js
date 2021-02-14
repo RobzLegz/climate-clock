@@ -84,33 +84,35 @@ const App = () => {
         </div>
       </section>
       <section className="stoppingClimateChangeBox">
-        <h1>How we can Stop Global Warming?</h1>
-        <div className="stopChangeRow">
-          <div className="howToStopContainer">
-            <img src={HomeImage} alt="home"/>
-            <p>When you go to bed or on vacation turn your thermostat down by three degrees</p>
+        <h1>How can we Stop Global Warming?</h1>
+        <div className="columnContainer">
+          <div className="stopChangeRow">
+            <div className="howToStopContainer">
+              <img src={HomeImage} alt="home"/>
+              <p>When you go to bed or on vacation turn your thermostat down by three degrees</p>
+            </div>
+            <div className="howToStopContainer">
+              <img src={BicicleImage} alt="bicicle"/>
+              <p>If you can use bicicles instead of cars to transport.</p>
+            </div>
+            <div className="howToStopContainer">
+              <img src={PlantTreesImage} alt="trees"/>
+              <p>Saving water reduces carbon pollution, too. That's because it takes a lot of energy to pump, heat, and treat your water.</p>
+            </div>
           </div>
-          <div className="howToStopContainer">
-            <img src={BicicleImage} alt="bicicle"/>
-            <p>If you can use bicicles instead of cars to transport.</p>
-          </div>
-          <div className="howToStopContainer">
-            <img src={PlantTreesImage} alt="trees"/>
-            <p>Saving water reduces carbon pollution, too. That's because it takes a lot of energy to pump, heat, and treat your water.</p>
-          </div>
-        </div>
-        <div className="stopChangeRow">
-          <div className="howToStopContainer">
-            <img src={SortingWasteImage} alt="home"/>
-            <p>Sort waste - always reuse any material you don't need, especially packaging.</p>
-          </div>
-          <div className="howToStopContainer">
-            <img src={TalkingImage} alt="bicicle"/>
-            <p>Encourage Congress to enact new laws that limit carbon emissions and require polluters to pay for the emissions they produce.</p>
-          </div>
-          <div className="howToStopContainer">
-            <img src={LocalFoodImage} alt="trees"/>
-            <p>Try eating as much local food as possible, so it doesn't have to travel with planes that produce CO2</p>
+          <div className="stopChangeRow">
+            <div className="howToStopContainer">
+              <img src={SortingWasteImage} alt="home"/>
+              <p>Sort waste - always reuse any material you don't need, especially packaging.</p>
+            </div>
+            <div className="howToStopContainer">
+              <img src={TalkingImage} alt="bicicle"/>
+              <p>Encourage Congress to enact new laws that limit carbon emissions and require polluters to pay for the emissions they produce.</p>
+            </div>
+            <div className="howToStopContainer">
+              <img src={LocalFoodImage} alt="trees"/>
+              <p>Try eating as much local food as possible, so it doesn't have to travel with planes that produce CO2</p>
+            </div>
           </div>
         </div>
       </section>
