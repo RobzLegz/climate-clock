@@ -6,6 +6,7 @@ import PlantTreesImage from "./resources/planttrees.svg";
 import LocalFoodImage from "./resources/breakfastlocalfood.svg";
 import SortingWasteImage from "./resources/wastesorting.svg";
 import TalkingImage from "./resources/talkimage.svg";
+import ClimateChangeWorld from "./resources/climateChangeWorld.png";
 
 const App = () => {
   const [timerYears, setTimerYears] = useState("00");
@@ -112,7 +113,33 @@ const App = () => {
           </div>
         </div>
       </section>
-      <section></section>
+      <section className="sourcesSectionBox">
+        <h1>What if we don't do Anything?</h1>
+        <p>If we don't take any action on saving the world, this is what world is going to look like after {timerYears} years.</p>
+        <img src={ClimateChangeWorld} alt=""/>
+        <div className="colorContainer">
+          <div className="aboutColor">
+            <div className="coloredSquare yellowColoredSquare"></div>
+            <p>Unhabitable desert</p>
+          </div>
+          <div className="aboutColor">
+            <div className="coloredSquare brownColoredSquare"></div>
+            <p>Under water</p>
+          </div>
+          <div className="aboutColor">
+            <div className="coloredSquare greenColoredSquare"></div>
+            <p>Habitable</p>
+          </div>
+          <div className="aboutColor">
+            <div className="coloredSquare whiteColoredSquare"></div>
+            <p>Too cold</p>
+          </div>
+        </div>
+        <h2>Sources:</h2>
+        <div className="sourcesContainer">
+          <a href=""></a>
+        </div>
+      </section>
     </div>
   )
 }
