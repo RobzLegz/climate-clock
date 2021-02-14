@@ -83,7 +83,7 @@
 }
 .howToStopContainer {
   width: 300px;
-  height: 300px;
+  height: 350px;
   border: 1px solid #333;
   display: flex;
   flex-direction: column;
@@ -91,6 +91,7 @@
   padding: 10px;
   border-radius: 30px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  justify-content: center;
 }
 .stoppingClimateChangeBox > h1 {
   font-size: 30px;
@@ -100,6 +101,7 @@
 .howToStopContainer > img {
   width: 80%;
   padding: 10px;
+  max-width: 200px;
 }
 .howToStopContainer > p {
   text-align: center;
