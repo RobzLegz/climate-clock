@@ -89,6 +89,8 @@
   flex-direction: column;
   align-items: center;
   padding: 10px;
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 .stoppingClimateChangeBox > h1 {
   font-size: 30px;

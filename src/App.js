@@ -3,6 +3,9 @@ import './App.css';
 import HomeImage from "./resources/athome.svg";
 import BicicleImage from "./resources/bicicle.svg";
 import PlantTreesImage from "./resources/planttrees.svg";
+import LocalFoodImage from "./resources/breakfastlocalfood.svg";
+import SortingWasteImage from "./resources/wastesorting.svg";
+import TalkingImage from "./resources/talkimage.svg";
 
 const App = () => {
   const [timerYears, setTimerYears] = useState("00");
@@ -91,6 +94,20 @@ const App = () => {
           <div className="howToStopContainer">
             <img src={PlantTreesImage} alt="trees"/>
             <p>Plant some trees</p>
+          </div>
+        </div>
+        <div className="stopChangeRow">
+          <div className="howToStopContainer">
+            <img src={SortingWasteImage} alt="home"/>
+            <p></p>
+          </div>
+          <div className="howToStopContainer">
+            <img src={TalkingImage} alt="bicicle"/>
+            <p>If you can use bicicles instead of cars to transport</p>
+          </div>
+          <div className="howToStopContainer">
+            <img src={LocalFoodImage} alt="trees"/>
+            <p>Try eating as much local food as possible</p>
           </div>
         </div>
       </section>
