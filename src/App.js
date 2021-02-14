@@ -138,7 +138,7 @@ const App = () => {
         <h2>Sources:</h2>
         <div className="sourcesContainer">
           <a href="https://www.nationalgeographic.com/environment/global-warming/global-warming-overview/"><p>National Geographic</p></a>
-          <a href="https://climate.nasa.gov/effects/"><p>Nasa</p></a>
+          <a href="https://climate.nasa.gov/effects/"><p>NASA</p></a>
           <a href="https://www.nrdc.org/stories/how-you-can-stop-global-warming"><p>NRDC</p></a>
         </div>
         <div className="videoContainer">

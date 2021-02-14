@@ -123,7 +123,7 @@
 }
 .sourcesSectionBox {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -173,4 +173,22 @@
 }
 .sourcesSectionBox > h2 {
   margin-top: 40px;
+}
+.sourcesContainer {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.sourcesContainer > a {
+  color: #333;
+}
+.sourcesContainer > a > p {
+  font-size: 20px;
+}
+.videoContainer {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
 }
