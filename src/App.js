@@ -53,6 +53,7 @@ const App = () => {
         <img className="globalWarmingImage" src="https://images.newscientist.com/wp-content/uploads/2019/07/03111113/what-is-global-warming-ct36ke_web.jpg" alt=""/>
         <h1>Global Warming</h1>
         <h2>It's Time To Take Action!</h2>
+        <h3>Time Until it's too late:</h3>
         <div className="countdownTimer">
           <h3>{timerYears < 10 ? "0" + timerYears : timerYears}</h3>
           <h3>:</h3>
@@ -68,12 +69,12 @@ const App = () => {
       <section className="aboutGlobalWarmingBox">
         <h1>What are the Effects of Global Warming?</h1>
         <div className="aboutGlobalWarming">
-          <img src="https://agfundernews.com/wp-content/uploads/2019/08/Brazilian-Amazon-Burning-516327500_1258x839-768x512.jpeg" alt=""/>
+          <img src="https://s01.sgp1.digitaloceanspaces.com/large/891755-xsxsainscs-1531826434.jpg" alt=""/>
           <p>Glaciers are melting, sea levels are rising, cloud forests are dying, and wildlife is scrambling to keep pace. It has become clear that humans have caused most of the past century's warming by releasing heat-trapping gases as we power our modern lives. Called greenhouse gases, their levels are higher now than at any time in the last 800,000 years.</p>
         </div>
         <div className="aboutGlobalWarming">
           <p>Climate change encompasses not only rising average temperatures but also extreme weather events, shifting wildlife populations and habitats, rising seas, and a range of other impacts. All of those changes are emerging as humans continue to add heat-trapping greenhouse gases to the atmosphere, changing the rhythms of climate that all living things have come to rely on.</p>
-          <img src="https://s01.sgp1.digitaloceanspaces.com/large/891755-xsxsainscs-1531826434.jpg" alt=""/>
+          <img src="https://agfundernews.com/wp-content/uploads/2019/08/Brazilian-Amazon-Burning-516327500_1258x839-768x512.jpeg" alt=""/>
         </div>
         <div className="aboutGlobalWarming">
         <img src="https://static01.nyt.com/images/2020/01/31/world/10australialetter139-1/merlin_166536642_24b1e96c-327a-4b9c-9979-f87ed8a0b502-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt=""/>
@@ -111,6 +112,7 @@ const App = () => {
           </div>
         </div>
       </section>
+      <section></section>
     </div>
   )
 }
