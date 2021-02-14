@@ -5,6 +5,7 @@
   position: relative;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 .globalWarmingImage {
   width: 100%;
@@ -13,12 +14,29 @@
   top: 0;
   left: 0;
   object-fit: cover;
+  pointer-events: none;
+  filter: grayscale(70%);
+}
+.homeHeadingBox > h1 {
+  z-index: 50;
+  color: #fff;
+  font-size: 60px;
+  margin-top: -100px;
+  text-shadow: 3px 3px 3px #000;
+}
+.homeHeadingBox > h2 {
+  color: #fff;
+  z-index: 50;
+  margin-top: 100px;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px #000;
 }
 .countdownTimer {
-  z-index: 100;
+  z-index: 50;
   width: 500px;
   display: flex;
   justify-content: space-between;
+  margin-top: 100px;
 }
 .countdownTimer > h3 {
   color: #fff;

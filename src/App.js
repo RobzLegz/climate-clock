@@ -46,6 +46,8 @@ const App = () => {
     <div className="app">
       <div className="homeHeadingBox">
         <img className="globalWarmingImage" src="https://images.newscientist.com/wp-content/uploads/2019/07/03111113/what-is-global-warming-ct36ke_web.jpg" alt=""/>
+        <h1>Global Warming</h1>
+        <h2>It's Time To Take Action!</h2>
         <div className="countdownTimer">
           <h3>{timerYears < 10 ? "0" + timerYears : timerYears}:</h3>
           <h3>{timerDays < 10 ? "0" + timerDays : timerDays}:</h3>
@@ -53,6 +55,9 @@ const App = () => {
           <h3>{timerMinutes < 10 ? "0" + timerMinutes : timerMinutes}:</h3>
           <h3>{timerSeconds < 10 ? "0" + timerSeconds : timerSeconds}</h3>
         </div>
+      </div>
+      <div className="aboutGlobalWarmingBox">
+        
       </div>
     </div>
   )
