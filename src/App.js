@@ -1,5 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './App.css';
+import HomeImage from "./resources/athome.svg";
+import BicicleImage from "./resources/bicicle.svg";
+import PlantTreesImage from "./resources/planttrees.svg";
 
 const App = () => {
   const [timerYears, setTimerYears] = useState("00");
@@ -67,15 +70,23 @@ const App = () => {
         </div>
         <div className="aboutGlobalWarming">
           <p>Climate change encompasses not only rising average temperatures but also extreme weather events, shifting wildlife populations and habitats, rising seas, and a range of other impacts. All of those changes are emerging as humans continue to add heat-trapping greenhouse gases to the atmosphere, changing the rhythms of climate that all living things have come to rely on.</p>
-          <img src="https://static01.nyt.com/images/2020/01/31/world/10australialetter139-1/merlin_166536642_24b1e96c-327a-4b9c-9979-f87ed8a0b502-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt=""/>
+          <img src="https://s01.sgp1.digitaloceanspaces.com/large/891755-xsxsainscs-1531826434.jpg" alt=""/>
         </div>
         <div className="aboutGlobalWarming">
-        <img src="https://s01.sgp1.digitaloceanspaces.com/large/891755-xsxsainscs-1531826434.jpg" alt=""/>
+        <img src="https://static01.nyt.com/images/2020/01/31/world/10australialetter139-1/merlin_166536642_24b1e96c-327a-4b9c-9979-f87ed8a0b502-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt=""/>
           <p>Scientists have high confidence that global temperatures will continue to rise for decades to come, largely due to greenhouse gases produced by human activities. Because human-induced warming is superimposed on a naturally varying climate, the temperature rise has not been, and will not be, uniform or smooth across the country or over time.</p>         
         </div>
       </section>
       <section className="stoppingClimateChangeBox">
-        
+        <div className="howToStopContainer">
+          <img src={HomeImage} alt="home"/>
+        </div>
+        <div className="howToStopContainer">
+          <img src={BicicleImage} alt="bicicle"/>
+        </div>
+        <div className="howToStopContainer">
+          <img src={PlantTreesImage} alt="trees"/>
+        </div>
       </section>
     </div>
   )
