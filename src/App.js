@@ -81,7 +81,7 @@ const App = () => {
         </div>
       </section>
       <section className="stoppingClimateChangeBox">
-        <h1>How to Stop Global Warming?</h1>
+        <h1>How we can Stop Global Warming?</h1>
         <div className="stopChangeRow">
           <div className="howToStopContainer">
             <img src={HomeImage} alt="home"/>
