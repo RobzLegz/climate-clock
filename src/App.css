@@ -193,6 +193,9 @@
   justify-content: space-between;
   margin-top: 50px;
 }
+.inVisibleImage {
+  display: none;
+}
 @media (max-width: 1800px) {
   .aboutGlobalWarming {
     width: 90%;
@@ -215,5 +218,50 @@
   .stopChangeRow {
     justify-content: space-between;
     width: 100%;
+  }
+}
+@media (max-width: 1243px) {
+  .stoppingClimateChangeBox {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 1114px) {
+  .stoppingClimateChangeBox {
+    margin-top: 100px;
+  }
+  .aboutGlobalWarming {
+    width: 100%;
+  }
+}
+@media (max-width: 1085px) {
+  .howToStopContainer {
+    width: 250px;
+  }
+}
+@media (max-width: 979px) {
+  .stoppingClimateChangeBox {
+    margin-top: 200px;
+  }
+  .youtubeLink {
+    width: 400px;
+    height: 200px;
+  }
+}
+@media (max-width: 939px) {
+  .aboutGlobalWarmingBox {
+    height: 150vh;
+    flex-direction: column;
+  }
+  .aboutGlobalWarming {
+    flex-direction: column;
+  }
+  .aboutGlobalWarming > img {
+    margin-bottom: 50px;
+  }
+  .inVisibleImage {
+    display: flex;
+  }
+  .visibleImage {
+    display: none;
   }
 }
